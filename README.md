@@ -1,5 +1,11 @@
-Choose Loop Type: Use a for loop for a specific number of iterations.
-Initialization: Set a starting value for the loop variable (e.g., int i = 0;).
-Condition: Define when the loop should stop (e.g., i < 10).
-Body: Write the code that will execute during each iteration.
-Update: Modify the loop variable after each iteration (e.g., i++).
+#include <iostream>
+using namespace std;
+int main() {
+    int num;
+    cout << "Enter a positive integer: ";
+    cin >> num;    
+    for (int i = 1; i <= 10; i++) {
+        cout << num << " x " << i << " = " << (num * i) << endl;
+ }
+ return 0;
+}

@@ -1,1 +1,1 @@
-this activity is multiplicatio table for loop
+this activity is multiplication table for loop
